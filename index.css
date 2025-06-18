@@ -7,7 +7,7 @@ h1 {
 }
 body {
   text-align: left;
-  font-size: 4vw;
+  font-size: 20px;
 }
 img {
   max-width: 90%;
@@ -15,8 +15,10 @@ img {
 }
 .round-image {
   border-radius: 50%;
-  height: 10%;
-  width: 10%;
+  height: 7%;
+  width: 7%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .round-border {
@@ -29,7 +31,7 @@ img {
 #brown-title {
   font-family: 'Lucida', cursive;
   color: rgb(72, 44, 6);
-  font-size: 7vw;
+  font-size: 75px;
 }
 
 .social-media {
@@ -44,5 +46,39 @@ img {
 .social-media > div {
   margin: 5px;
   padding: 1px;
-  font-size: 3vw;
+  font-size: 20px;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .round-border {
+    height: auto;
+    width: 75%;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .social-media > div {
+    font-size: 3vw;
+  }
+  #brown-title {
+    font-size: 7vw;
+  }
+  Body {
+    font-size: 4vw;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .social-media > div {
+    font-size: 3vw;
+  }
+  #brown-title {
+    font-size: 7vw;
+  }
+  Body {
+    font-size: 4vw;
+  }
 }
