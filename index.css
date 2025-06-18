@@ -29,7 +29,7 @@ img {
   border-radius: 50px;
 }
 
-#brown-title {
+.brown-title {
   font-family: 'Lucida', cursive;
   color: rgb(72, 44, 6);
   font-size: 75px;
