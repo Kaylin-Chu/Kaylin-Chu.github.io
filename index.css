@@ -1,10 +1,41 @@
 html {
-  background-color: rgb(200, 148, 158);
-  font-family: 'Staatliches', cursive;
+  background-color: rgb(207, 139, 152);
+  font-family: 'Staatlaches', cursive;
 }
 h1 {
   text-align: center;
 }
 body {
   text-align: left;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.smaller-image {
+  height: 400px;
+  width: 500px;
+}
+.round-image {
+  border-radius: 50%;
+  height: 5%;
+  width: 5%;
+}
+
+.round-border {
+  border-color: rgb(72, 44, 6);
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+#brown-title {
+  font-family: 'Lucida', cursive;
+  color: rgb(72, 44, 6);
+  font-size: 75px;
+}
+@media (max-height: 600px) {
+  body {
+    font-size: 50px;
+  }
 }
