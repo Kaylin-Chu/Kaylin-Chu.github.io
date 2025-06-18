@@ -13,7 +13,7 @@
       class="round-image"
     />
   </a>
-  <title>Keeping up with Kaylin</title>
+  <title>Margin, Border & Padding</title>
   <body>
     <head>
     <h1 class="brown-title">
@@ -39,29 +39,44 @@
 Explain how and when to use CSS concepts -->
     On a very basic level; 
     <ul>
-    <li><strong>Border</strong> is the ring around the outside of the text (element/content) </li>
+    <li><strong>Border</strong> is the ring around the outside of the content (element/text) </li>
     <li><strong>Padding</strong> is the space between the text and the border </li>
     <li><strong>Margin</strong> is the space around the border </li>
     </ul>
-    <p>
-    It looks a bit like a square target, the text is the bullseye then the outer ring is the padding then the border
-    and then the margin. 
+<a href="#"><img src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F38448959-ead0-455a-b368-d19ca47f4a7e_1920x1080.png"></a>
+<style>
+  img {
+    height: 50vw;
+    width: 200vw;
+  }
+  /* widescreen displays */
+@media only screen and (min-width: 920px) {
+  img {
+    height: auto;
+    width: 50%;}}
+</style>
+<p>
+    Shown here, the Box model is a visual representation of how the Border, Padding and Margins work.
+    <br>
+      It looks a bit like a square target, the content is the bullseye, then the outer ring is the padding, then the border
+    and lastly, the margin. 
     </p>
-    <strong> Text > Padding > Border > Margin </strong>
+    <h3><strong> Content > Padding > Border > Margin </strong></h3>
     <p>
-    One way to tell the difference is to use Will McGugan's mnemonic, 'padded cell'. 
+    One way to remember the difference is to use Will McGugan's mnemonic, 'padded cell'. 
     In a padded cell, the padding goes on the inside. 
     </p>
     <h1>When to use Margins, Borders, and Padding?</h1>
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia praesentium sit ut asperiores fugit at sapiente a soluta, voluptates debitis iure in voluptatum quas nihil placeat ipsa voluptate aliquam eius.
-    </p>
+      Borders are used to outline or "circle" content, if the margin lines are too close to the content/text you would add in padding to make the border ring further away.
+      Margins are used if the next element is too close to the border, this will push it further away. 
+      </p>
     <p>
     <h2>Other things to note:</h2>
     <ul><li>Thickening the borders will change the element size. To outline without changing the element size, use the "outline" command. </li>
     <li><strong>Vertical</strong> margins overlap, the largest will engulf the smaller ones rather than being added together</li>
     <li>Unlike vertical margins, <strong>Horizontal</strong> margins will be added together</li>
-    <li>Borders make margins non-collapsible</li>
+    <!-- <li>Borders make margins non-collapsible</li> -->
     </ul>
   </p>
 </html>

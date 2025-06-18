@@ -6,6 +6,9 @@ h1 {
   text-align: center;
   margin: 1px;
 }
+h3 {
+  text-align: center;
+}
 body {
   text-align: left;
   font-size: 20px;
