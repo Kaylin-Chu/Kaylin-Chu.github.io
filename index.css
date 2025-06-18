@@ -9,7 +9,7 @@ body {
   text-align: left;
 }
 img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 .smaller-image {
@@ -18,8 +18,8 @@ img {
 }
 .round-image {
   border-radius: 50%;
-  height: 5%;
-  width: 5%;
+  height: 10%;
+  width: 10%;
 }
 
 .round-border {
@@ -34,8 +34,11 @@ img {
   color: rgb(72, 44, 6);
   font-size: 75px;
 }
-@media (max-height: 600px) {
+@media (max-height: 500px) {
   body {
+    font-size: 50px;
+  }
+  #brown-title {
     font-size: 50px;
   }
 }
