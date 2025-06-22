@@ -75,7 +75,7 @@ img {
 }
 
 /* phones */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
   .social-media > div {
     font-size: 2vw;
   }
