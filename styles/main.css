@@ -1,4 +1,88 @@
+html {
+  background-color: rgb(207, 139, 152);
+  font-family: 'Staatlaches', cursive;
+}
+h1 {
+  text-align: center;
+  margin: 1px;
+}
+h3 {
+  text-align: center;
+}
 body {
-  background-color: paleturquoise;
-  font-family: 'Dancing Script', cursive;
+  text-align: left;
+  font-size: 20px;
+}
+img {
+  max-width: 90%;
+  height: auto;
+}
+.round-image {
+  border-radius: 50%;
+  height: 7%;
+  width: 7%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.round-border {
+  border-color: rgb(72, 44, 6);
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 50px;
+}
+
+.brown-title {
+  font-family: 'Lucida', cursive;
+  color: rgb(72, 44, 6);
+  font-size: 75px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(72, 44, 6);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.social-media > div {
+  margin: 5px;
+  padding: 1px;
+  font-size: 20px;
+}
+
+/* widescreen displays */
+@media only screen and (min-width: 920px) {
+  .round-border {
+    height: auto;
+    width: 75%;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 919px) {
+  .social-media > div {
+    font-size: 2vw;
+  }
+  .brown-title {
+    font-size: 5vw;
+  }
+  Body {
+    font-size: 4vw;
+  }
+}
+
+/* phones */
+@media only screen and (max-width: 400px) {
+  .social-media > div {
+    font-size: 2vw;
+  }
+  .brown-title {
+    font-size: 5vw;
+  }
+  Body {
+    font-size: 4vw;
+  }
 }
