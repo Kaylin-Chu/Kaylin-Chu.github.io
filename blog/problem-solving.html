@@ -44,9 +44,17 @@
       <h1>Blocked on a simple problem</h1>
     A really simple problem I got stuck on was during the flipflop task. 
     The flipflop task aims to write a function where multiples of 3 are replaced with 'flip', multiples of 5 are replaced with 'flop' and multiples of 15 are replaced with 'flipflop'.
+     <br>
      <img
       src="../Flipflop task.png"
     />
+    <style>
+  img {
+    height: 400px;
+    width: 200px;
+  }
+</style>
+    <br>
     I put the 15 division parameter last and I couldn't understand why the file wasn't returning flipflop and just kept returning flip. 
     Eventually, I figured out I had ordered the conditions incorrectly. 
     I used the <strong>error messages</strong> to solve the issue, the error message said the expected result 'flipflop' did not match the returned result 'flip'.
@@ -54,6 +62,7 @@
     It was nice to solve the issue and completely understand the solution. 
     I learned the 15 had to go first because 3 and 5 go into 15 but 15 doesn't go into 3 and 5.
     The code is read top to bottom so makes sense that 15 must go first.
+      
       <h1>Elegantly solved a problem</h1>
     Doing the deBee task, I felt like it was easy to begin because it was so similar to the Capitalize task that I had just done.
     The deBee task would like a string (in this case, a sentence) to have all the 'buzz' words taken out no matter whether upper or lower case.
