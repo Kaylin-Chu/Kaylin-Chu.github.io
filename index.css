@@ -41,10 +41,13 @@ img {
 .social-media {
   display: flex;
   justify-content: flex-end;
-  color: rgb(72, 44, 6);
+  /* color: rgb(72, 44, 6); */
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
+  border-radius: 25%;
+  height: 3%;
+  width: 3%;
 }
 
 .social-media > div {
