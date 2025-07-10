@@ -23,6 +23,11 @@ img {
   width: 200px;
 }
 
+.dom{
+height: 50vw;
+width: 50vw;
+}
+
 .round-image {
   border-radius: 50%;
   padding: center;
@@ -65,6 +70,10 @@ img {
   .round-border {
     height: auto;
     width: 75%;
+  }
+  .dom {
+    height: auto;
+    width: 30%;
   }
 }
 
