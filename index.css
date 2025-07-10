@@ -17,6 +17,12 @@ img {
   max-width: 90%;
   height: auto;
 }
+
+.flipflop {
+  height: 400px;
+  width: 200px;
+}
+
 .round-image {
   border-radius: 50%;
   padding: center;
