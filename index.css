@@ -45,15 +45,18 @@ img {
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
-  border-radius: 25%;
-  height: 3%;
-  width: 3%;
 }
 
 .social-media > div {
   margin: 5px;
   padding: 1px;
   font-size: 20px;
+}
+
+#equal-image {
+  border-radius: 25%;
+  height: 4%;
+  width: 4%;
 }
 
 /* widescreen displays */
