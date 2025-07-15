@@ -1,15 +1,19 @@
-// import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti'
+import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti'
 
 let confetti = document.getElementById('confetti')
 let star = document.getElementById('star')
 let music = document.getElementById('music')
 
+
+
 confetti.onclick = clickCannon
 star.onclick = clickStar
 music.onclick = clickMusic
 
+
+
 function clickCannon() {
-  confetti()
+  canvasConfetti()
   let soundEffect = new Audio('PartyWhistle.mp3')
   soundEffect.play()
 }
@@ -25,19 +29,17 @@ function clickMusic () {
   soundEffect.play()
 }
 
-confetti({
-  particleCount: 100,
-  spread: 70,
-  origin: { y: 0.6 }
-});
 
-var defaults = {
+
+
+
+let defaults = {
   spread: 360,
   ticks: 50,
   gravity: 0,
   decay: 0.94,
   startVelocity: 30,
-  colors: ['FFE400', 'FFBD00', 'E89400', 'FFCA6C', 'FDFFB8']
+  colors: ['FF1493', 'FFC0CB', 'FF69B4']
 };
 
 function shoot() {
