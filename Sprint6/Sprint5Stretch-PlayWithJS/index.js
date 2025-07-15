@@ -1,8 +1,12 @@
 // import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti'
 
 let confetti = document.getElementById('confetti')
+let star = document.getElementById('star')
+let music = document.getElementById('music')
 
 confetti.onclick = clickCannon
+star.onclick = clickStar
+music.onclick = clickMusic
 
 function clickCannon() {
   confetti()
@@ -13,6 +17,11 @@ function clickCannon() {
 function clickStar () {
   shoot()
   let soundEffect = new Audio('Twinkle.mp3')
+  soundEffect.play()
+}
+
+function clickMusic () {
+  let soundEffect = new Audio('Music.mp3')
   soundEffect.play()
 }
 

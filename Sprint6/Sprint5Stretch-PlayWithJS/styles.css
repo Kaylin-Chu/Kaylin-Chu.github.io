@@ -23,15 +23,16 @@ img {
 
 .center {
   display: inline-block;
+  justify-content: center;
   text-align: center;
 }
 
 .no-bg {
   mix-blend-mode: multiply;
   filter: contrast(1);
-  width: 400px;
-  height: 400px;
-  padding: 20px;
+  width: 375px;
+  height: 375px;
+  padding: 50px;
 }
 
 .flipflop {
