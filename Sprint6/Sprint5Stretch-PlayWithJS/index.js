@@ -15,10 +15,10 @@ function clickCannon() {
 }
 
 function clickStar() {
-  shoot()
-  setTimeout(shoot, 0)
-  setTimeout(shoot, 100)
-  setTimeout(shoot, 200)
+  // shoot()
+  // setTimeout(shoot, 0)
+  // setTimeout(shoot, 100)
+  // setTimeout(shoot, 200)
   let soundEffect = new Audio('Twinkle.mp3')
   soundEffect.play()
 }
@@ -28,15 +28,15 @@ function clickMusic() {
   soundEffect.play()
 }
 
-function shoot() {
-  confetti({
-    spread: 360,
-    ticks: 50,
-    gravity: 0,
-    decay: 0.94,
-    startVelocity: 30,
-    colors: ['FF1493', 'FFC0CB', 'FF69B4'],
-    particleCount: 40,
-    shapes: ['star'],
-  })
-}
+// function shoot() {
+//   confetti({
+//     spread: 360,
+//     ticks: 50,
+//     gravity: 0,
+//     decay: 0.94,
+//     startVelocity: 30,
+//     colors: ['FF1493', 'FFC0CB', 'FF69B4'],
+//     particleCount: 40,
+//     shapes: ['star'],
+//   })
+// }
