@@ -1,11 +1,11 @@
 import canvasConfetti from 'https://cdn.skypack.dev/canvas-confetti'
 
 let confetti = document.getElementById('confetti')
-let star = document.getElementById('star')
+// let star = document.getElementById('star')
 let music = document.getElementById('music')
 
 confetti.onclick = clickCannon
-star.onclick = clickStar
+// star.onclick = clickStar
 music.onclick = clickMusic
 
 function clickCannon() {
@@ -14,20 +14,21 @@ function clickCannon() {
   soundEffect.play()
 }
 
-function clickStar() {
-  // shoot()
-  // setTimeout(shoot, 0)
-  // setTimeout(shoot, 100)
-  // setTimeout(shoot, 200)
-  let soundEffect = new Audio('Twinkle.mp3')
-  soundEffect.play()
-}
+// function clickStar() {
+//   shoot()
+//   setTimeout(shoot, 0)
+//   setTimeout(shoot, 100)
+//   setTimeout(shoot, 200)
+//   let soundEffect = new Audio('Twinkle.mp3')
+//   soundEffect.play()
+// }
 
 function clickMusic() {
   let soundEffect = new Audio('Music.mp3')
   soundEffect.play()
 }
 
+// // NOT WORKING AT ALL 
 // function shoot() {
 //   confetti({
 //     spread: 360,
